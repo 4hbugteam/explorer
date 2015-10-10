@@ -1,0 +1,61 @@
+
+#container {
+    /*background-image: url("file:///C:/Russ/js/sample-chart.jpg")*/;
+    /*background-image: url("file:///C:/Russ/js/doge.jpg");*/
+    /*background-color: #0c000c;*/
+    background-color: transparent;
+    height: 900px;
+    width: 900px;
+    /*left: -3000px;*/
+    position: fixed;
+    z-index:1;
+}
+
+#window {
+    background-color: transparent;
+    height: 80%;
+    width: 95%;
+    margin: 5px;
+    z-index: 0;
+}
+
+#doge {
+    position: relative;
+    left: -2400px;
+    z-index: -1;
+}
+
+#controls {
+    height: 18%;
+    width: 95%;
+    margin: 5px;
+    background-color: orange;
+    z-index: 2;
+}
+
+.yellowbox {
+    background-color: #FFF000 !important;
+}
+
+.button {
+    background-color: #2C7CC3;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+#btn_left {
+    float: left;
+}
+
+#btn_right {
+    float: right;
+}
+
+#btn_up {
+    float: top;
+}
+
+#btn_down {
+    float: right;
+}
